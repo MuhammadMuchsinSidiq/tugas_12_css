@@ -1,0 +1,59 @@
+body {
+  background-color: #61abcb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.slider-img {
+  max-height: 900px;
+  margin: 10px auto;
+  display: block;
+  overflow: hidden;
+}
+
+.image {
+  max-width: 250px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.p-text {
+  column-count: 4;
+  column-fill: balance;
+  column-rule: double;
+  text-align: justify;
+}
+
+
+.footer {
+  line-height: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 2px;
+
+}
